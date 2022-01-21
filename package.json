@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lemuellloren/basic-user-management-system-API/issues"
   },
-  "homepage": "https://github.com/lemuellloren/basic-user-management-system-API#readme"
+  "homepage": "https://github.com/lemuellloren/basic-user-management-system-API#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
