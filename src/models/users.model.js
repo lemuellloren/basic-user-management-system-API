@@ -66,7 +66,7 @@ Users.update = function (id, users, result) {
 
 // * Delete 
 Users.delete = function (id, result) {
-    dbConn.query("DELETE FROM userss WHERE id = ?", [id], function (err, res) {
+    dbConn.query("DELETE FROM users WHERE id = ?", [id], function (err, res) {
         if (err) {
             console.log("error: ", err);
             result(null, err);
