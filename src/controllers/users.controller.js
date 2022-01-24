@@ -48,7 +48,7 @@ exports.update = function (req, res) {
             message: 'Please provide all required field'
         });
     } else {
-        Users.update(req.params.id, new users(req.body), function (err, users) {
+        Users.update(req.params.id, new Users(req.body), function (err, users) {
             if (err)
                 res.send(err);
             res.json({
