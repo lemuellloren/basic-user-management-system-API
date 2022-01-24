@@ -75,12 +75,17 @@ Open the link below to view it in you favorate browser.
 
 You can test the API in Postman
 
-- GET /api/v1/users: show all users stored in database
-- GET /api/v1/users/<users_id>: show a specific user with users_id.
-- POST /api/v1/users : create a new user
-- PATCH /api/v1/users/<users_id>: update a specific user
-- DELETE /api/v1/users/<users_id>: delete a user
-- PUT /api/v1/users/<users_id>: update a user completely
+`GET /api/v1/users: show all users stored in database`
+
+`GET /api/v1/users/<users_id>: show a specific user with users_id`
+
+`POST /api/v1/users : create a new user`
+
+`PATCH /api/v1/users/<users_id>: update a specific user`
+
+`DELETE /api/v1/users/<users_id>: delete a user`
+
+`PUT /api/v1/users/<users_id>: update a user completely`
 
 ## Authors
 
